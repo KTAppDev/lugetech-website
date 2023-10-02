@@ -1,13 +1,24 @@
+import React from 'react'
 import Image from 'next/image'
 
-export default function Home() {
+const page = () => {
   return (
-
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p className="text-4xl font-bold text-center">
-        Luge Tech
-      </p>
-
+    <main className=' h-full w-full flex flex-col'>
+      <div id='logo' className='flex flex-row items-center justify-around font-bold text-xl'>
+        <p> LugeTech </p>
+      </div>
+      <div id='profiles' className=' flex flex-row'>
+          <div id='profile-iamge' className='flex flex-col'>
+          <Image 
+          className='flex flex-col rounded-full' 
+          src='https://avatars.githubusercontent.com/u/61248118?v=4' alt='Clint' width={60} height={60} />
+          </div>
+        <div id='profile'>
+          <div id='profile-name'>Clint</div>
+        </div>
+      </div>
     </main>
   )
 }
+
+export default page
