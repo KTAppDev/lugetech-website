@@ -15,7 +15,6 @@ const page = () => {
           id="profile"
           className="flex flex-row h-1/2 w-full bg-lime-200 gap-2"
         >
-          <div>
             <div id="profile-info" className=" flex flex-col w-5/6 gap-2">
               <div id="info" className=" flex flex-row w-full">
                 info Div
@@ -24,10 +23,10 @@ const page = () => {
                 Github Div
               </div>
             </div>
+
+          <div id="badges" className=" flex flex-col min-w-1/6">
+            Ba
           </div>
-            <div id="badges" className=" flex flex-1 flex-col">
-              Ba
-            </div>
         </div>
         <div className=" h-1/2">Projects</div>
       </div>
