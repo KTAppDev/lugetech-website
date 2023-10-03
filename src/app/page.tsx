@@ -9,28 +9,25 @@ const page = () => {
         className="flex flex-row items-center justify-around font-bold text-xl"
       >
         <p> LugeTech </p>
-      </div>
-      <div id="profiles" className=" flex flex-col h-full w-full bg-yellow-200">
-        <div
-          id="profile"
-          className="flex flex-row h-1/2 w-full bg-lime-200 gap-2"
-        >
-            <div id="profile-info" className=" flex flex-col w-5/6 gap-2 justify-between">
-              <div id="info" className=" flex flex-row w-4/6">
-              <div id="profile-image" className=" flex flex-col w-1/6">
-                <Image className=" rounded-full"
+      </div> 
+      <div id="profiles" className=" flex flex-col h-full w-full ">
+        <div id="profile" className="flex flex-row h-1/2 w-full gap-2 border-2 border-blue-600">
+            <div id="profile-info" className=" flex flex-col w-full gap-2 justify-between rounded-md shadow-lg ">
+              <div id="info" className=" flex flex-row w-full">
+              <div id="profile-image" className=" flex flex-col w-2/6 md:w-1/6 mr-2">
+                <Image className=" rounded-full w-auto h-auto object-cover shadow-xl "
                   src="https://avatars.githubusercontent.com/u/61248118?v=4"
                   alt="Profile Picture"
                   width={70}
                   height={70}
                 />
               </div>
-                <div id="profile-name" className=" flex flex-col">
-                  Clint Eastman
+                <div id="profile-name" className=" flex flex-col w-full ">
+                  <h1>Clint Eastman</h1>
                   <div id="profile-title">
                     Software Engineer
                   </div>
-                  <div id="About">I am a software engineer with a passion for building things.</div>
+                  <div id="About" className=" text-sm tracking-tight w-full flex flex-wrap justify-start ">I am a software engineer with a passion for building things. I have a background in full stack development, but I am currently focused on front end development. I am currently working on a few projects, but I am always open to new opportunities.</div>
                   </div>
                    {/* <div></div> empty div for info that can beb added later */}
               </div>
@@ -38,7 +35,7 @@ const page = () => {
                 Github Div
               </div>
             </div>
-          <div id="badges" className=" flex flex-col min-w-1/6">
+          <div id="badges" className=" flex flex-col w-1/6 border-2 border-green-700">
             BA
           </div>
         </div>
