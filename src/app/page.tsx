@@ -15,6 +15,7 @@ const page = () => {
           id="profile"
           className="flex flex-row h-1/2 w-full bg-lime-200 gap-2"
         >
+
             <div id="profile-info" className=" flex flex-col w-5/6 gap-2 justify-between">
               <div id="info" className=" flex flex-row w-4/6">
               <div id="profile-image" className=" flex flex-col w-1/6">
@@ -33,11 +34,13 @@ const page = () => {
                   <div id="About">I am a software engineer with a passion for building things.</div>
                   </div>
                    {/* <div></div> empty div for info that can beb added later */}
+
               </div>
               <div id="github-info" className=" flex flex-row">
                 Github Div
               </div>
             </div>
+
           <div id="badges" className=" flex flex-col min-w-1/6">
             BA
           </div>
