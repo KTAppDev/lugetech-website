@@ -30,6 +30,7 @@ const page = () => {
                   <div id="About" className=" text-sm tracking-tight w-full flex flex-wrap justify-start ">I am a software engineer with a passion for building things. I have a background in full stack development, but I am currently focused on front end development. I am currently working on a few projects, but I am always open to new opportunities.</div>
                   </div>
                    {/* <div></div> empty div for info that can beb added later */}
+
               </div>
               <div id="github-info" className=" flex flex-row">
                 Github Div
