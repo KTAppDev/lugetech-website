@@ -32,12 +32,7 @@ const page = () => {
               {/* <div></div> empty div for info that can beb added later */}
 
             </div>
-            <div id="github-info" className=" flex flex-row">
-              Github Div
-            </div>
-          </div>
-
-          <div id="badges" className=" flex flex-col w-1/6 ">
+          <div id="badges" className=" flex flex-col w-1/6 border-2 border-green-700">
             BA
           </div>
         </div>
