@@ -1,5 +1,6 @@
 import React from "react";
 import BadgesPanel from "./components/BadgesPanel";
+import ProjectsPanel from "./components/ProjectsPanel";
 import { DeveloperInfo } from "./components/DeveloperInfo";
 import { GetGithubProfile, GetGithubRepos } from "./lib/serverActions";
 const page = () => {
@@ -23,7 +24,9 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className=" h-full">Projects</div>
+      <div className=" h-full">
+        <ProjectsPanel developer="ktappdev" />
+      </div>
     </main>
   );
 };
