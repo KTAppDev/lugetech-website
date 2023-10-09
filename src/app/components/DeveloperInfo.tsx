@@ -19,11 +19,11 @@ export const DeveloperInfo = async (props: developer) => {
 
       </div>
       <div id="profile-name" className=" flex flex-col w-full">
-        <p className="font-bold">Clint Eastman</p>
+        <p className="font-bold">{profile.name}</p>
         <div id="profile-title">
           <p className="text-xs border-b-2">Full Stack Software Engineer</p>
         </div>
-        <div id="About " className=" mt-2 text-xs md:text-sm tracking-tight w-full flex flex-wrap justify-start">I am a ssoftwa ssoftware engineer with a passion for building things.I asoftware engin ssoftware engineer with a passion for building things.I asoftware enginre engineer with a passion for building things.I asoftware engineer with a passion for building things.I aoftware engineer with a passion for building things.I am a software engineer with a passion for building things</div>
+        <div id="About " className=" mt-2 text-xs md:text-sm tracking-tight w-full flex flex-wrap justify-start">{profile.bio}</div>
       </div>
       <div id="profile-badges" className=" flex flex-col w-1/6">
         <BadgesPanel />

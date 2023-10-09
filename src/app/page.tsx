@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import BadgesPanel from "./components/BadgesPanel";
 import { DeveloperInfo } from "./components/DeveloperInfo";
 import { GetGithubProfile, GetGithubRepos } from "./lib/serverActions";
