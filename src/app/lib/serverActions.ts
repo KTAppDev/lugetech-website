@@ -1,5 +1,8 @@
 'use server'
-export const GetGithubProfile = async (username: string) => {
+
+import { profile } from "./interfaces"
+
+export const GetGithubProfile = async (username: string): Promise<profile> => {
   return fetch(`https://api.github.com/users/${username}`)
     .then((res) => res.json())
     .catch((err) => console.log(err))
