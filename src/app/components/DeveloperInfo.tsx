@@ -8,7 +8,7 @@ interface developer {
 export const DeveloperInfo = async (props: developer) => {
   const profile = await GetGithubProfile(props.name);
   return (
-    <div id="info" className=" flex flex-row w-full p-2 rounded-md border-2 border-zinc-200 shadow-xl">
+    <div id="info" className=" flex flex-row w-full h-full p-2 rounded-md border-2 border-zinc-200 shadow-xl">
       <div id="profile-image" className=" flex flex-col sm:w-4/10 md:w-1/10 lg:w-1/10 xl:w-1/10 2xl:w-1/12  mr-2">
         <Image className=" rounded-full w-auto h-auto object-cover shadow-xl"
           src={profile.avatar_url}
