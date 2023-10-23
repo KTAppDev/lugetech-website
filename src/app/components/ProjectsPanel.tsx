@@ -11,9 +11,9 @@ const ProjectsPanel = async(props: project) => {
     <div id='projects'>Projects Panel
       <div id='projects-list' className='flex flex-col md:flex-row gap-4 hover:bg-sky-600'>
         <div id='project'>
-          <a href={repos[1].html_url} target='_blank' rel='noreferrer'>
-            <div id='project-name'>{repos[1].name}</div>
-            <div id='project-description'>{repos[1].description}</div>
+          <a href='https://badwordsthing.lugetech.com/' target='_blank' rel='noreferrer'>
+            <div id='project-name'>{repos[0].name}</div>
+            <div id='project-description'>{repos[0].description}</div>
           </a>
         </div>
       </div>
