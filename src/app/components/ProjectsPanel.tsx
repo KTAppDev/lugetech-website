@@ -6,7 +6,7 @@ interface project {
 
 const ProjectsPanel = async(props: project) => {
   const repos = await GetGithubPinnedRepos(props.developer);
-  console.log(repos) //just to test if the data is being fetched
+  // console.log(repos) //just to test if the data is being fetched
   return (
     <div id='projects'>Projects Panel
       <div id='projects-list' className='flex flex-col md:flex-row gap-4 hover:bg-sky-600'>
