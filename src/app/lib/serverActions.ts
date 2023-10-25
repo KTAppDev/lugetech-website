@@ -20,6 +20,6 @@ export const GetGithubPinnedRepos = async (username: string): Promise<Repo[]> =>
   const allrepos = await GetGithubRepos(username)
 
   return pinned.map((pinnedRepo) => {
-    return allrepos.find((repo: Repo) => repo.full_name === pinnedRepo)!
+    return allrepos.find((repo: Repo) => repo.full_name === pinnedRepo) as Repo
   })
 }
