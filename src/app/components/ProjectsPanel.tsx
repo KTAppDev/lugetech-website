@@ -4,7 +4,7 @@ interface project {
   developer: string,
 }
 
-const ProjectsPanel = async(props: project) => {
+const ProjectsPanel = async (props: project) => {
   const repos = await GetGithubPinnedRepos(props.developer);
   // console.log(repos) //just to test if the data is being fetched
   return (
