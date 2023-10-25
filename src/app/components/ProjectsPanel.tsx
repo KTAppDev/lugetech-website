@@ -9,7 +9,7 @@ const ProjectsPanel = async (props: project) => {
   // console.log(repos) //just to test if the data is being fetched
   return (
     <div id='projects'>Projects Panel
-      <div id='projects-list' className='flex flex-col md:flex-row gap-4 hover:bg-sky-600'>
+      <div id='projects-list' className='flex flex-col md:flex-row gap-4 hover:border-2 p-2'>
         <div id='project'>
           <a href='https://badwordsthing.lugetech.com/' target='_blank' rel='noreferrer'>
             <div id='project-name'>{repos[0].name}</div>
